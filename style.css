@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    background-image: linear-gradient(to right, #E14D2A,  #009EFF, #BFEAF5, #38E54D);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 8px #0A2647;
+}
+
+/*Información*/
+
+.información {
+    padding: 20px;
+}
+
+.información h2 {
+    padding-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.información h4 {
+    padding-bottom: 10px;
+}
+
+.información h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.información p {
+    text-align: justify;
+}
+
+/*Main*/
+
+.actualidad {
+    background-color: #EAFDFC;
+    padding-bottom: 30px;
+}
+
+.titulo-actual {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.actualidad h2 {
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    text-transform: uppercase;
+}
+
+.imagenes-korra {
+    text-align: center;
+}
+
+.imagenes-korra img {
+    width: 300px;
+    height: 230px;
+    padding: 5px;
+}
+
+/*Listas*/
+
+.listas {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.listas .lista {
+    float: left;
+    width: 50%;
+}
+
+.listas h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.listas ul {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.listas ol {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.listas .imagen-avatares {
+    float: right;
+    width: 50%;
+}
+
+.listas img {
+    width: 500px;
+}
+
+/*Enlaces internos*/
+
+.card-principal {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#card-principal h1 {
+    padding-bottom: 20px;
+}
+
+#card-principal p {
+    text-align: justify;
+}
+
+.naciones {
+    padding-bottom: 20px;
+}
+
+.naciones p {
+    padding-bottom: 20px;
+}
+
+.naciones a {
+    color: black;
+}
+
+#ancla-agua:hover {
+    color: #009EFF;
+}
+
+#ancla-fuego:hover {
+    color: #E14D2A;
+}
+
+#ancla-tierra:hover {
+    color:#83BD75;
+}
+
+#ancla-aire:hover {
+    color:#BFEAF5;
+}
+
+.texto {
+    text-align: center;
+    border: black solid 1px;
+    border-radius: 20px;
+    min-width: 300px;
+    max-width: 600px;
+    height: 550px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-naciones {
+    font-size: 20px;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.card-titulo-agua:hover {
+    color:#009EFF;
+}
+
+.card-titulo-fuego:hover {
+    color:#E14D2A;
+}
+
+.card-titulo-tierra:hover {
+    color:#38E54D;
+}
+
+.card-titulo-aire:hover {
+    color:#BFEAF5;
+}
+
+.descripcion {
+    padding: 10px;
+    text-align: justify;  
+}
+
+.emblema {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.emblema img {
+    width: 100px;
+    padding: 10px;
+}
+
+/*Enlaces externos*/
+
+.enlace-externo p {
+    padding-bottom: 20px;
+}
+
+.imagen-externa img {
+    width: 400px;
+    padding-bottom: 20px;
+}
+
+.imagen-externa {
+    text-align: center;
+}
+
+/*Formularios*/
+
+.serie {
+    padding-bottom: 20px;
+}
+
+.serie p {
+    padding-bottom: 10px;
+}
+
+.eleccion-elemento {
+    padding-bottom: 20px;
+}
+
+.eleccion-elemento p {
+    padding-bottom: 10px;
+}
+
+/*Footer*/
+
+.final p {
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.final a:hover {
+    color: #009EFF;
+}

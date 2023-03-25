@@ -1,0 +1,207 @@
+<!-- DOCTYPE le dice al navegador que este archivo es tipo html -->
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+    <!--Titulos!-->
+    <title> Avatar </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    </head>
+    <!--Dentro de mi body (cuerpo)vamos a poner lo que el usuarix ve -->
+    <body>
+    <!--División de prueba-->
+    <header>
+      <nav>
+        <h1 class="titulo">EL MUNDO AVATAR</h1>
+      </nav>
+    </header>   
+
+          <div class="información">
+            <h2>Universo Avatar</h2>
+            <h4>El primer Avatar</h4>
+            <p><strong>Avatar Wan:</strong> Él es el primer avatar que existió. Logró dominar los cuatro elementos con la ayuda de Raava, el espíritu de la luz y el equilibrio, quien combinaba su energía con la de Wan. El decidió dominar los cuatro elementos porque era la única forma para poder detener a Vaatu, el espíritu del caos y la oscuridad.</p>
+            <h3>Las Cuatro Naciones</h3>
+            <p>El mundo de Avatar está dividido en cuatro grandes naciones (cada una con el nombre de uno de los cuatro elementos) y una forma de gobierno de acuerdo a las características del elemento de cada una, las cuales el Avatar debe mantener en armonía. En cada una de estas, hay individuos capaces de controlar dichos elementos (llamados <strong>Maestros</strong>). Solo el Avatar puede controlar los cuatro.</p>
+            <h3>El Mundo de los Espíritus</h3>
+            <p>Es un plano paralelo de la realidad que coexiste con el Mundo Físico, y es el hogar de los espíritus, entidades inmortales sobrenaturales que a menudo encarnan diferentes aspectos de la vida y la naturaleza. Todas las vidas pasadas del Avatar residen en el Mundo de los Espíritus.</p>
+        </div>
+
+    <!--Main-->
+      <main>
+        <section class="actualidad">
+        <h1 class="titulo-actual">Actualidad</h1>
+        <h2>Avatar Korra</h2>
+        <!-- Atributos son src (SOURCE (de dónde viene)) y alt -->
+        <div class="imagenes-korra">
+        <img src="https://www.quever.news/u/fotografias/m/2022/12/23/f850x638-44157_121646_4829.jpg">
+        <img src="/images/korra.jpg">
+        </div>
+        </section>
+
+        <!-- Listas -->
+
+        <section class="listas">
+        <h3>Listas de Avatares</h3>
+
+          <div class="lista"> <!-- Elemento div (división de otro elementos) -->
+          <!-- strong elemento para negritas -->
+            <p>Últimos avatares conocidos antes de <strong>Korra</strong></p>
+          <!-- em elemento para letras cursivas -->
+            <p><em> Lista hecha por Kenia </em></p> 
+          <!-- Lista no ordenada (ul) = unordered list -->
+            <ul>
+              <li>Aang</li>  <!-- Item de la lista (list item) -->
+              <li>Roku</li>  <!-- Item de la lista -->
+              <li>Kyoshi</li>  <!-- Item de la lista -->
+            </ul>
+
+            <p>Orden del <strong>Ciclo Avatar</strong></p>
+          <!-- Lista ordenada (ol) = ordered list -->
+              <ol>
+                <li>Fuego 🔥</li>
+                <li>Aire 🌪️</li>
+                <li>Agua 💧</li>
+                <li>Tierra 🌱</li>
+              </ol>
+          </div>
+
+          <div class="imagen-avatares">
+            <img src="./images/avatares.jpg" alt="Imagen de Avatares">
+          </div>
+          
+        </section>
+        
+        <!-- Enlaces internos (Navegación) -->
+
+        <div class="naciones">
+          <h1>Las Cuatro Naciones</h1>
+          <p>El mundo de Avatar está dividido en cuatro grandes naciones (cada una con el nombre de uno de los cuatro elementos) y una forma de gobierno de acuerdo a las características del elemento de cada una, las cuales el Avatar debe mantener en armonía.</p>
+          <a href="#card-agua" id="ancla-agua">Las Tribus del Agua</a>
+          <a href="#card-fuego" id="ancla-fuego">La Nación del Fuego</a>
+          <a href="#card-tierra" id="ancla-tierra">El Reino Tierra</a>
+          <a href="#card-aire" id="ancla-aire">Los Nómadas del Aire</a>
+        </div>
+
+      <section class="card-principal">   
+        
+        <section id="card-agua">
+          <article class="texto">
+            <header class="card-naciones">
+              <h3 class="card-titulo-agua">Las Tribus del Agua</h3>
+            </header>
+            <div class="descripcion">
+              <p>Las Tribus Agua están ubicadas en los polos del planeta, son dos: la Tribu Agua del Norte y la Tribu Agua del Sur.</p>
+              <p>Las tribus son el hogar de hombres y mujeres, los cuales algunos pueden controlar el agua, que técnica denominada Agua-control (Hidroquinesis).</p>
+            </div>
+              <footer class="emblema">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/EmblemaAguaControl.png/220px-EmblemaAguaControl.png">
+              </footer>
+            </article>
+        </section>
+
+        <section id="card-fuego">
+          <article class="texto">
+            <header class="card-naciones">
+              <h3 class="card-titulo-fuego">La Nación del Fuego</h3>
+            </header>
+            <div class="descripcion">
+              <p>La Nación del Fuego está compuesta por un archipiélago de islas volcánicas en el Hemisferio Oeste del planeta.</p>
+              <p>Está habitada por muchos pueblos y un gran centro, la Capital. Algunas personas de esta nación controlan el fuego, lo que llaman Fuego-control (Piroquinesis), estas personas se denominan Maestros Fuego.</p>
+            </div>
+            <footer class="emblema">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/EmblemaFuegoControl.png/220px-EmblemaFuegoControl.png">
+            </footer>
+          </article>
+        </section>
+
+        <section id="card-tierra">
+          <article class="texto">
+            <header class="card-naciones">
+              <h3 class="card-titulo-tierra">El Reino Tierra</h3>
+            </header>
+              <div class="descripcion">        
+                <p>Se llama Reino Tierra a la nación de mayor superficie y población del globo. Es una monarquía confederada gobernada por el Rey de la Tierra. Un enorme continente tomando la mayor parte del hemisferio oriental del planeta.</p>
+                <p>El Tierra-Control es el balance entre el ataque y la defensa. Los ataques comunes incluyen hacer levitar tierra y/o rocas, y arrojarlas a los enemigos.</p>
+              </div>
+            <footer class="emblema">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/EmblemaTierraControl.png/220px-EmblemaTierraControl.png">
+            </footer>
+          </article>
+        </section>
+
+        <section id="card-aire">
+          <article class="texto">
+            <header class="card-naciones">
+              <h3 class="card-titulo-aire">Los Nómadas del Aire</h3>
+            </header>
+              <div class="descripcion">       
+                <p>Está constituida por cuatro templos, dos de los cuales son habitados por hombres (Templos Aire del Norte y del Sur), y los otros dos por mujeres (Templos Aire del Este y del Oeste).</p>
+                <p>Los Nómadas del Aire se caracterizaban por ser la única nación en la cual todos sus miembros controlaban el aire (Eoloquinesis), lo que llamaban Aire-control. La disciplina del Aire-control es fundamentalmente defensiva, teniendo como principios básicos la paz y sociabilidad. </p>
+              </div>
+            <footer class="emblema">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/EmblemaAireControl.png/220px-EmblemaAireControl.png">
+            </footer>
+          </article>
+        </section>
+
+      </section>
+
+      <!-- Enlaces externos  -->
+      <div class="enlace-externo">
+   
+      <p>Más información en el siguiente <a href="https://es.wikipedia.org/wiki/Avatar:_la_leyenda_de_Aang#Universo_de_Avatar" target="_blank">link</a></p>
+
+        <div class="imagen-externa">
+          <a href="https://www.netflix.com/us-es/title/70142405" target="_blank"> <img src="https://vader.news/__export/1591357729312/sites/gadgets/img/2020/06/05/maxresdefault.jpg_554688468.jpg"></a>
+        </div>
+
+      </div>
+      
+      <!--Formularios-->
+
+      <div class="serie">
+        <p>¿Qué serie viste primero?</p>
+        <!--Opción Aang-->
+          <label for="aang">
+            <input id="aang" type="radio" value="aang" name="serie"> Avatar Aang
+          </label>
+      
+        <!--Opción Korra-->
+          <label for="Korra">
+            <input id="Korra" type="radio" value="Korra" name="serie"> Avatar Korra
+          </label>
+      </div>
+
+        <!--Formulario con checkbox-->
+
+        <div class="eleccion-elemento">
+          <p>¿Qué elemento te gusta más?</p>
+            <label for="fuego">
+              <input id="fuego" type="checkbox" value="fuego" name="elemento"> Fuego
+            </label>
+
+            <label for="aire">
+              <input id="aire" type="checkbox" value="aire" name="elemento"> Aire
+            </label>
+
+            <label for="agua">
+              <input id="agua" type="checkbox" value="agua" name="elemento"> Agua
+            </label>
+
+            <label for="tierra">
+              <input id="tierra" type="checkbox" value="tierra" name="elemento"> Tierra
+            </label>
+        </div>
+    </main>
+
+    <!--Footer dentro del body-->
+
+    <footer class="final">
+        <p>Página creada por Kenia en <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a></p>
+    </footer>
+    </body>
+</html>
